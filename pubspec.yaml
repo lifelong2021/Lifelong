@@ -1,0 +1,76 @@
+name: lifelong
+description: "Affordable, Accurate, On-Time"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter_web_plugins:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+
+  url_strategy: ^0.2.0 # Or the latest version
+  flutter_bloc: ^8.1.3
+  font_awesome_flutter: ^10.7.0
+  flutter_dotenv: ^5.1.0
+  dio: ^5.4.0
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  equatable: ^2.0.5
+  get_it: ^7.6.7
+  mask_text_input_formatter: ^2.5.0
+  injectable: ^2.3.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.8
+  freezed: ^2.4.6
+  injectable_generator: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/slide1.png
+    - assets/slide2.png
+    - assets/slide3.png
+    - assets/slide4.png
+    - assets/slide5.png
+    - assets/packages/package1.png
+    - assets/packages/package2.png
+    - assets/packages/package3.png
+    - assets/packages/package4.png
+    - assets/packages/package5.png
+    - assets/riskmarkers/heart.png
+    - assets/riskmarkers/liver.png
+    - assets/riskmarkers/kidney.png
+    - assets/riskmarkers/thyroid.png
+    - assets/riskmarkers/brain.png
+    - assets/riskmarkers/diabetes.png
+    - assets/riskmarkers/anemia.png
+    - assets/riskmarkers/allergy.png
+    - assets/riskmarkers/cancer.png
+    - assets/riskmarkers/vitamins.png
+    - assets/riskmarkers/arthritis.png
+    - assets/riskmarkers/pregnancy.png
+    - assets/riskmarkers/alcohol.png
+    - assets/riskmarkers/stds.png
+    - assets/logo/mainlogo.PNG
+    - assets/sampletype/blood.png
+    - assets/sampletype/urine.png
+    - assets/sampletype/stool.png
+    - assets/sampletype/sputum.png
+    - assets/logo/login_main_logo.png
+    - assets/logo/customer_logo.png
+    - assets/logo/lock_logo.png
+    - assets/logo/visiblepassword.png
+    - assets/logo/hiddenpassword.png
+    - assets/logo/google_auth_logo.png
+    - assets/logo/phone_auth_logo.png
+
+
